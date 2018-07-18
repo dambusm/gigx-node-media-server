@@ -1,0 +1,23 @@
+{
+  "name": "media-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "node-media-server": "^1.4.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon ./bin/www"
+  },
+  "engines": {
+    "node": "v10.5.0",
+    "npm": "6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
