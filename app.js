@@ -14,5 +14,7 @@ const config = {
   }
 };
 
-var nms = new NodeMediaServer(config)
+var nms = new NodeMediaServer(config);
+var ip = require("ip");
+console.dir(ip.address());
 nms.run();
